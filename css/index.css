@@ -126,6 +126,42 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+header {
+  background: #062135;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header img {
+  width: 33%;
+  display: flex;
+  padding-left: 30px;
+}
+header .team-link {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+header .team-link a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+}
+header .login-links {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+header .login-links a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  padding-left: 20px;
+}
 .container {
-  background: red;
+  max-width: 1200px;
+  margin: 0 auto;
 }
