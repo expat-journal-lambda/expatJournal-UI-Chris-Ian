@@ -187,6 +187,7 @@ header .login-links a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 .container .features-text {
   height: 200px;
@@ -203,4 +204,40 @@ header .login-links a {
 .container .features-text p {
   color: gray;
   font-size: 1.2rem;
+}
+.container .features-section {
+  display: flex;
+}
+.container .features-section section {
+  width: 40%;
+  display: flex;
+}
+.container .features-section section img {
+  width: 25%;
+}
+.container .features-section section .features-text {
+  display: flex;
+  flex-direction: column;
+}
+.call-to-action {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+}
+.call-to-action h2 {
+  font-size: 4rem;
+  color: #062135;
+  padding-bottom: 20px;
+}
+.call-to-action p {
+  color: gray;
+  font-size: 1.2rem;
+}
+.call-to-action button {
+  margin-top: 30px;
+  height: 50px;
+  width: 100px;
 }
