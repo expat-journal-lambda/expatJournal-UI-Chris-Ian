@@ -33,12 +33,16 @@ body {
     font-family: "Helvetica", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
 
+    @media @tablet {
+        width: 800px;
+        justify-content: center;
+    }
+
     @media @mobile {
         width: 500px;
         justify-content: center;
-        // padding-left: 5%;
-        // padding-right: 5%;
     }
+
 }
 ol, ul {
 	list-style: none;
@@ -79,10 +83,6 @@ header {
         width: 33%;
         display: flex;
         padding-left: 30px;
-
-        @media @mobile {
-            padding-left: 30px;
-        }
     }
 
     .nav-link {
@@ -108,11 +108,6 @@ header {
             text-decoration: none;
             font-size: 2.5rem;
             color: white;
-            padding-left: 20px;
-
-            @media @mobile {
-                padding-left: 0px;
-            }
         }
     }
 }
@@ -133,12 +128,19 @@ header {
 
     @media @mobile {
         width: 100%;
-        // width: 500px;
         background-image: none;
         justify-content: center;
         align-items: center;
         height: 500px;
       }
+
+    @media @tablet {
+        width: 100%;
+        background-image: none;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
 
     h1 {
         color: white;
@@ -146,6 +148,11 @@ header {
         padding-bottom: 20px;
 
         @media @mobile {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        @media @tablet {
             margin-left: 5%;
             margin-right: 5%;
         }
@@ -157,6 +164,11 @@ header {
         padding-bottom: 10px;
 
         @media @mobile {
+            width: 80%;
+            font-size: 1.8rem;
+        }
+
+        @media @tablet {
             margin-left: 5%;
             margin-right: 5%;
         }
@@ -172,6 +184,10 @@ header {
         @media @mobile {
             margin-bottom: 0px;
         }
+
+        @media @tablet {
+            margin-bottom: 0px;
+        }
     }
 }
 
@@ -180,11 +196,11 @@ header {
     margin: 0 auto;
     margin-bottom: 60px;
 
-    @media @mobile {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+    // @media @mobile {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    // }
    
     .features-title {
         // height: 300px;
@@ -199,7 +215,11 @@ header {
         @media @mobile {
             margin-left: 5%;
             margin-right: 5%;
-            
+        }
+
+        @media @tablet {
+            margin-left: 5%;
+            margin-right: 5%;
         }
 
         h2 {
@@ -211,8 +231,10 @@ header {
         p {
             color: gray;
             font-size: 2rem;
+            
             @media @mobile {
                 padding-bottom: 30px;
+                font-size: 1.8rem;
             }
         }
     }
@@ -229,6 +251,13 @@ header {
             padding-bottom: 0px;
         }
 
+        @media @tablet {
+            margin-left: 5%;
+            margin-right: 5%;
+            flex-direction: column-reverse;
+            padding-bottom: 0px;
+        }
+
         article {
 
             width: 50%;
@@ -239,16 +268,31 @@ header {
                 margin-right: 5%;
             }
 
+            @media @tablet {
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                justify-content: center;
+            }
+
             section {
                 display: flex;
                 align-items: center;
 
                 @media @mobile {
-                    width: 90%;
-                    padding-left: 5%;
-                    padding-right: 5%;
+                    // width: 90%;
+                    // padding-left: 5%;
+                    // padding-right: 5%;
                     flex-direction: column;
                 }
+
+                // @media @tablet {
+                //     // width: 90%;
+                //     // padding-left: 5%;
+                //     // padding-right: 5%;
+                //     // justify-content: center;
+                //     // flex-direction: column;
+                // }
 
                 img.feature-icon {
                     width: 100px;
@@ -258,12 +302,19 @@ header {
                         margin-right: 0px;
                         padding-bottom: 20px;
                     }
+
+                    // @media @tablet {
+                    //     margin-right: 0px;
+                    //     padding-bottom: 20px;
+                    //     justify-content: flex-start;
+                    // }
                     
                 }
 
                 .feature-text {
                     display: flex;
                     flex-direction: column;
+                    // width: 
 
                     h3 {
                         font-size: 2.5rem;
@@ -273,6 +324,7 @@ header {
                         @media @mobile {
                             text-align: center;
                             padding-bottom: 20px;
+                            font-size: 4rem;
                         }
                     }
 
@@ -283,7 +335,14 @@ header {
                         @media @mobile {
                             text-align: center;
                             padding-bottom: 20px;
+                            font-size: 1.8rem;
                         }
+
+                        // @media @tablet {
+                        //     // width: 100%;
+                        //     text-align: center;
+                        //     padding-bottom: 20px;
+                        // }
                     }
 
                     hr {
@@ -299,6 +358,13 @@ header {
             width: 50%;
 
             @media @mobile {
+                width: 90%;
+                margin-left: 5%;
+                margin-right: 5%;
+                padding-bottom: 60px;
+            }
+
+            @media @tablet {
                 width: 90%;
                 margin-left: 5%;
                 margin-right: 5%;
@@ -342,6 +408,7 @@ header {
             width: 90%;
             margin-left: 5%;
             margin-right: 5%;
+            font-size: 1.8rem;
         }
     }
 

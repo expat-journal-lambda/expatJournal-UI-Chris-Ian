@@ -109,6 +109,12 @@ body {
   font-family: "Helvetica", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
+@media (max-width: 800px) {
+  body {
+    width: 800px;
+    justify-content: center;
+  }
+}
 @media (max-width: 500px) {
   body {
     width: 500px;
@@ -156,11 +162,6 @@ header img {
   display: flex;
   padding-left: 30px;
 }
-@media (max-width: 500px) {
-  header img {
-    padding-left: 30px;
-  }
-}
 header .nav-link {
   width: 33%;
   display: flex;
@@ -181,12 +182,6 @@ header .login-links a {
   text-decoration: none;
   font-size: 2.5rem;
   color: white;
-  padding-left: 20px;
-}
-@media (max-width: 500px) {
-  header .login-links a {
-    padding-left: 0px;
-  }
 }
 .main-hero-text {
   height: 700px;
@@ -210,6 +205,15 @@ header .login-links a {
     height: 500px;
   }
 }
+@media (max-width: 800px) {
+  .main-hero-text {
+    width: 100%;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+}
 .main-hero-text h1 {
   color: white;
   font-size: 6rem;
@@ -221,12 +225,24 @@ header .login-links a {
     margin-right: 5%;
   }
 }
+@media (max-width: 800px) {
+  .main-hero-text h1 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 .main-hero-text p {
   color: white;
   font-size: 1.8rem;
   padding-bottom: 10px;
 }
 @media (max-width: 500px) {
+  .main-hero-text p {
+    width: 80%;
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 800px) {
   .main-hero-text p {
     margin-left: 5%;
     margin-right: 5%;
@@ -244,17 +260,15 @@ header .login-links a {
     margin-bottom: 0px;
   }
 }
+@media (max-width: 800px) {
+  .main-hero-text button {
+    margin-bottom: 0px;
+  }
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 60px;
-}
-@media (max-width: 500px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
 }
 .container .features-title {
   display: flex;
@@ -266,6 +280,12 @@ header .login-links a {
   padding-bottom: 60px;
 }
 @media (max-width: 500px) {
+  .container .features-title {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 800px) {
   .container .features-title {
     margin-left: 5%;
     margin-right: 5%;
@@ -283,6 +303,7 @@ header .login-links a {
 @media (max-width: 500px) {
   .container .features-title p {
     padding-bottom: 30px;
+    font-size: 1.8rem;
   }
 }
 .container .features-section {
@@ -290,6 +311,14 @@ header .login-links a {
   padding-bottom: 60px;
 }
 @media (max-width: 500px) {
+  .container .features-section {
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column-reverse;
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 800px) {
   .container .features-section {
     margin-left: 5%;
     margin-right: 5%;
@@ -307,15 +336,20 @@ header .login-links a {
     margin-right: 5%;
   }
 }
+@media (max-width: 800px) {
+  .container .features-section article {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+  }
+}
 .container .features-section article section {
   display: flex;
   align-items: center;
 }
 @media (max-width: 500px) {
   .container .features-section article section {
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
     flex-direction: column;
   }
 }
@@ -342,6 +376,7 @@ header .login-links a {
   .container .features-section article section .feature-text h3 {
     text-align: center;
     padding-bottom: 20px;
+    font-size: 4rem;
   }
 }
 .container .features-section article section .feature-text p {
@@ -352,6 +387,7 @@ header .login-links a {
   .container .features-section article section .feature-text p {
     text-align: center;
     padding-bottom: 20px;
+    font-size: 1.8rem;
   }
 }
 .container .features-section article section .feature-text hr {
@@ -363,6 +399,14 @@ header .login-links a {
   width: 50%;
 }
 @media (max-width: 500px) {
+  .container .features-section aside {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 800px) {
   .container .features-section aside {
     width: 90%;
     margin-left: 5%;
@@ -403,6 +447,7 @@ header .login-links a {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 1.8rem;
   }
 }
 .call-to-action button {
@@ -468,6 +513,13 @@ footer p {
   flex-direction: column;
   align-items: center;
   padding-bottom: 60px;
+}
+@media (max-width: 800px) {
+  .container.team article section {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 @media (max-width: 500px) {
   .container.team article section {
