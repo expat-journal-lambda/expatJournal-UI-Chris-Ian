@@ -86,7 +86,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
 }
@@ -106,7 +106,7 @@ section {
 }
 body {
   line-height: 1;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Helvetica", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 @media (max-width: 500px) {
@@ -133,6 +133,9 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+html {
+  font-size: 62.5%;
 }
 header {
   background: #062135;
@@ -165,7 +168,7 @@ header .nav-link {
 }
 header .nav-link a {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   color: white;
 }
 header .login-links {
@@ -176,7 +179,7 @@ header .login-links {
 }
 header .login-links a {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   color: white;
   padding-left: 20px;
 }
@@ -209,7 +212,7 @@ header .login-links a {
 }
 .main-hero-text h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 6rem;
   padding-bottom: 20px;
 }
 @media (max-width: 500px) {
@@ -220,7 +223,7 @@ header .login-links a {
 }
 .main-hero-text p {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   padding-bottom: 10px;
 }
 @media (max-width: 500px) {
@@ -232,8 +235,9 @@ header .login-links a {
 .main-hero-text button {
   margin-top: 30px;
   height: 50px;
-  width: 100px;
+  width: 140px;
   margin-bottom: 200px;
+  font-size: 1.6rem;
 }
 @media (max-width: 500px) {
   .main-hero-text button {
@@ -253,12 +257,13 @@ header .login-links a {
   }
 }
 .container .features-title {
-  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media (max-width: 500px) {
   .container .features-title {
@@ -267,17 +272,22 @@ header .login-links a {
   }
 }
 .container .features-title h2 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #062135;
   padding-bottom: 20px;
 }
 .container .features-title p {
   color: gray;
-  font-size: 1.2rem;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .container .features-title p {
+    padding-bottom: 30px;
+  }
 }
 .container .features-section {
   display: flex;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 @media (max-width: 500px) {
   .container .features-section {
@@ -316,6 +326,7 @@ header .login-links a {
 @media (max-width: 500px) {
   .container .features-section article section img.feature-icon {
     margin-right: 0px;
+    padding-bottom: 20px;
   }
 }
 .container .features-section article section .feature-text {
@@ -323,22 +334,24 @@ header .login-links a {
   flex-direction: column;
 }
 .container .features-section article section .feature-text h3 {
-  font-size: 1.75rem;
+  font-size: 2.5rem;
   color: #062135;
   padding-bottom: 10px;
 }
 @media (max-width: 500px) {
   .container .features-section article section .feature-text h3 {
     text-align: center;
+    padding-bottom: 20px;
   }
 }
 .container .features-section article section .feature-text p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: grey;
 }
 @media (max-width: 500px) {
   .container .features-section article section .feature-text p {
     text-align: center;
+    padding-bottom: 20px;
   }
 }
 .container .features-section article section .feature-text hr {
@@ -354,6 +367,7 @@ header .login-links a {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    padding-bottom: 60px;
   }
 }
 .container .features-section aside img {
@@ -368,10 +382,8 @@ header .login-links a {
   background-color: lightgray;
   text-align: center;
 }
-@media (max-width: 500px) {
-}
 .call-to-action h2 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #062135;
   padding-bottom: 20px;
 }
@@ -384,7 +396,7 @@ header .login-links a {
 }
 .call-to-action p {
   color: gray;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 @media (max-width: 500px) {
   .call-to-action p {
@@ -396,7 +408,8 @@ header .login-links a {
 .call-to-action button {
   margin-top: 30px;
   height: 50px;
-  width: 100px;
+  width: 140px;
+  font-size: 1.6rem;
 }
 footer {
   height: 150px;
@@ -418,13 +431,20 @@ footer .footer-container {
     margin-right: 5%;
   }
 }
+footer .footer-container img.logo {
+  padding-left: 30px;
+}
 footer .footer-container nav a {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   color: white;
+}
+footer .footer-container img.to-top-arrow {
+  padding-right: 30px;
 }
 footer p {
   color: white;
+  font-size: 1.5rem;
 }
 .container.team .title-text {
   display: flex;
@@ -432,7 +452,7 @@ footer p {
 }
 .container.team .title-text h1 {
   color: #062135;
-  font-size: 4rem;
+  font-size: 5rem;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -461,12 +481,12 @@ footer p {
   padding-bottom: 20px;
 }
 .container.team article section h2 {
-  font-size: 1.75rem;
+  font-size: 3.5rem;
   color: #062135;
   padding-bottom: 20px;
 }
 .container.team article section p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: grey;
   padding-bottom: 20px;
 }
