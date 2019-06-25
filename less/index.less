@@ -148,16 +148,37 @@ header {
         display: flex;
 
         section {
-            width: 40%;
+            width: 50%;
             display: flex;
+            align-items: center;
 
             img {
-                width: 25%;
+                width: 33%;
             }
 
             .features-text {
                 display: flex;
                 flex-direction: column;
+            }
+        }
+
+        .feature-text {
+            
+            h3 {
+                font-size: 1.75rem;
+                color: #062135;
+                padding-bottom: 10px;
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: grey;
+            }
+
+            hr {
+                border: 1px solid whitesmoke;
+                margin-top: 25px;
+                margin-bottom: 25px;
             }
         }
     }
@@ -187,6 +208,34 @@ header {
         margin-top: 30px;
         height: 50px;
         width: 100px;
+    }
+}
+
+footer {
+
+    height: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #062135;
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        nav a {
+            text-decoration: none;
+            font-size: 1.3rem;
+            color: white;
+        }
+    }
+
+    p {
+        color: white;
     }
 }
 

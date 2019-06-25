@@ -209,15 +209,30 @@ header .login-links a {
   display: flex;
 }
 .container .features-section section {
-  width: 40%;
+  width: 50%;
   display: flex;
+  align-items: center;
 }
 .container .features-section section img {
-  width: 25%;
+  width: 33%;
 }
 .container .features-section section .features-text {
   display: flex;
   flex-direction: column;
+}
+.container .features-section .feature-text h3 {
+  font-size: 1.75rem;
+  color: #062135;
+  padding-bottom: 10px;
+}
+.container .features-section .feature-text p {
+  font-size: 1.2rem;
+  color: grey;
+}
+.container .features-section .feature-text hr {
+  border: 1px solid whitesmoke;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .call-to-action {
   height: 300px;
@@ -240,4 +255,27 @@ header .login-links a {
   margin-top: 30px;
   height: 50px;
   width: 100px;
+}
+footer {
+  height: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #062135;
+}
+footer .footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-container nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+}
+footer p {
+  color: white;
 }
