@@ -441,13 +441,20 @@ footer p {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 1000px;
 }
 .container.team article section {
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 60px;
+}
+@media (max-width: 500px) {
+  .container.team article section {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 .container.team article section img.team-member {
   height: 250px;
