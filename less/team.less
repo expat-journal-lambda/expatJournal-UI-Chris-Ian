@@ -17,7 +17,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        height: 800px;
+        height: 1000px;
     
         section {
             width: 33%;
@@ -25,7 +25,8 @@
             flex-direction: column;
             align-items: center;
 
-            img {
+            img.team-member {
+                height: 250px;
                 padding-bottom: 20px;
             }
 
@@ -43,7 +44,18 @@
 
             .social-links {
                 display: flex;
-                justify-content: space-evenly;
+                width: 100%;
+                justify-content: center;
+
+
+                img.github-icon {
+                    height: 40px;
+                    padding-right: 20px;
+                }
+
+                img.linkedin-icon {
+                    height: 40px;
+                }
             }
         }
     }

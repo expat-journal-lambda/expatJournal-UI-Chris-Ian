@@ -124,7 +124,7 @@ header {
     margin: 0 auto;
     margin-bottom: 60px;
    
-    .features-text {
+    .features-title {
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -147,38 +147,50 @@ header {
         
         display: flex;
 
-        section {
+        article {
+
             width: 50%;
-            display: flex;
-            align-items: center;
+
+            section {
+                // width: 50%;
+                display: flex;
+                align-items: center;
+
+                img.feature-icon {
+                    width: 100px;
+                    margin-right: 20px;
+                    
+                }
+
+                .feature-text {
+                    display: flex;
+                    flex-direction: column;
+
+                    h3 {
+                        font-size: 1.75rem;
+                        color: #062135;
+                        padding-bottom: 10px;
+                    }
+
+                    p {
+                        font-size: 1.2rem;
+                        color: grey;
+                    }
+
+                    hr {
+                        border: 1px solid whitesmoke;
+                        margin-top: 25px;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        } 
+        
+        aside {
+            width: 50%;
 
             img {
-                width: 33%;
-            }
-
-            .features-text {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-
-        .feature-text {
-            
-            h3 {
-                font-size: 1.75rem;
-                color: #062135;
-                padding-bottom: 10px;
-            }
-
-            p {
-                font-size: 1.2rem;
-                color: grey;
-            }
-
-            hr {
-                border: 1px solid whitesmoke;
-                margin-top: 25px;
-                margin-bottom: 25px;
+                width: 100%;
             }
         }
     }

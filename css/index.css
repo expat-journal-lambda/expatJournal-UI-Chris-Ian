@@ -189,50 +189,59 @@ header .login-links a {
   margin: 0 auto;
   margin-bottom: 60px;
 }
-.container .features-text {
+.container .features-title {
   height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.container .features-text h2 {
+.container .features-title h2 {
   font-size: 4rem;
   color: #062135;
   padding-bottom: 20px;
 }
-.container .features-text p {
+.container .features-title p {
   color: gray;
   font-size: 1.2rem;
 }
 .container .features-section {
   display: flex;
 }
-.container .features-section section {
+.container .features-section article {
   width: 50%;
+}
+.container .features-section article section {
   display: flex;
   align-items: center;
 }
-.container .features-section section img {
-  width: 33%;
+.container .features-section article section img.feature-icon {
+  width: 100px;
+  margin-right: 20px;
 }
-.container .features-section section .features-text {
+.container .features-section article section .feature-text {
   display: flex;
   flex-direction: column;
 }
-.container .features-section .feature-text h3 {
+.container .features-section article section .feature-text h3 {
   font-size: 1.75rem;
   color: #062135;
   padding-bottom: 10px;
 }
-.container .features-section .feature-text p {
+.container .features-section article section .feature-text p {
   font-size: 1.2rem;
   color: grey;
 }
-.container .features-section .feature-text hr {
+.container .features-section article section .feature-text hr {
   border: 1px solid whitesmoke;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.container .features-section aside {
+  width: 50%;
+}
+.container .features-section aside img {
+  width: 100%;
 }
 .call-to-action {
   height: 300px;
@@ -294,7 +303,7 @@ footer p {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 800px;
+  height: 1000px;
 }
 .container.team article section {
   width: 33%;
@@ -302,7 +311,8 @@ footer p {
   flex-direction: column;
   align-items: center;
 }
-.container.team article section img {
+.container.team article section img.team-member {
+  height: 250px;
   padding-bottom: 20px;
 }
 .container.team article section h2 {
@@ -317,5 +327,13 @@ footer p {
 }
 .container.team article section .social-links {
   display: flex;
-  justify-content: space-evenly;
+  width: 100%;
+  justify-content: center;
+}
+.container.team article section .social-links img.github-icon {
+  height: 40px;
+  padding-right: 20px;
+}
+.container.team article section .social-links img.linkedin-icon {
+  height: 40px;
 }
