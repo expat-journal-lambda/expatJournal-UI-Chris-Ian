@@ -182,6 +182,8 @@ header .login-links a {
   text-decoration: none;
   font-size: 2.5rem;
   color: white;
+  border: 1px white solid;
+  padding: 10px;
 }
 .main-hero-text {
   height: 700px;
@@ -505,6 +507,55 @@ footer p {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+@media (max-width: 500px) {
+  .container.team .title-text h1 {
+    padding-bottom: 20px;
+  }
+}
+.container.team .tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.container.team .filter-label {
+  font-size: 1.75rem;
+}
+@media (max-width: 800px) {
+  .container.team .filter-label {
+    display: none;
+  }
+}
+.container.team .roles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.75rem;
+  color: #062135;
+}
+@media (max-width: 800px) {
+  .container.team .roles {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .container.team .roles {
+    display: none;
+  }
+}
+.container.team .roles .tab {
+  border: 1px #062135 solid;
+  margin: 5px;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container.team article {
   display: flex;
   flex-wrap: wrap;
@@ -516,13 +567,12 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-bottom: 60px;
 }
 @media (max-width: 800px) {
   .container.team article section {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
