@@ -327,7 +327,8 @@ header .login-links a {
   }
 }
 .container .features-section article {
-  width: 50%;
+  width: 45%;
+  margin-left: 5%;
 }
 @media (max-width: 500px) {
   .container .features-section article {
@@ -396,7 +397,10 @@ header .login-links a {
   margin-bottom: 25px;
 }
 .container .features-section aside {
-  width: 50%;
+  width: 45%;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .container .features-section aside {
