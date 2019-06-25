@@ -279,3 +279,43 @@ footer .footer-container nav a {
 footer p {
   color: white;
 }
+.container.team .title-text {
+  display: flex;
+  justify-content: center;
+}
+.container.team .title-text h1 {
+  color: #062135;
+  font-size: 4rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container.team article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 800px;
+}
+.container.team article section {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container.team article section img {
+  padding-bottom: 20px;
+}
+.container.team article section h2 {
+  font-size: 1.75rem;
+  color: #062135;
+  padding-bottom: 20px;
+}
+.container.team article section p {
+  font-size: 1.2rem;
+  color: grey;
+  padding-bottom: 20px;
+}
+.container.team article section .social-links {
+  display: flex;
+  justify-content: space-evenly;
+}
