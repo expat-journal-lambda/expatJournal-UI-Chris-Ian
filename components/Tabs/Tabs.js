@@ -27,7 +27,7 @@ class TabFilter {
         const members = document.querySelectorAll('section.member')
 
         members.forEach(member => member.style.display = 'none')
-
+        
         this.tabElement.classList.add('active-tab')
 
         this.members.forEach(member => member.selectRole())
@@ -40,6 +40,7 @@ class MemberSection {
     }
     selectRole(){
         this.memberElement.style.display = 'flex';
+        
     }
 }
 
