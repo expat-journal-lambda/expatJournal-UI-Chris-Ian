@@ -34,7 +34,7 @@ class ImageSlider {
 
             this.imagesNodeList[this.currentImageIndex].style.display = 'flex'
             TweenMax.from(this.imagesNodeList[this.currentImageIndex], 1, {x: 50})
-            TweenMax.to(this.imagesNodeList[this.currentImageIndex], 2, {opacity: 1})
+            TweenMax.to(this.imagesNodeList[this.currentImageIndex], 1, {ease: Power1.easeIn, opacity: 1})
             this.sliderIconNodeList[this.currentImageIndex].style.color = 'gray'
         } else {
             this.imagesNodeList[this.currentImageIndex].style.display = 'none'
@@ -45,7 +45,7 @@ class ImageSlider {
 
             this.imagesNodeList[this.currentImageIndex].style.display = 'flex'
             TweenMax.from(this.imagesNodeList[this.currentImageIndex], 1, {x: 50})
-            TweenMax.to(this.imagesNodeList[this.currentImageIndex], 2, {opacity: 1})
+            TweenMax.to(this.imagesNodeList[this.currentImageIndex], 1, {ease: Power1.easeIn, opacity: 1})
             this.sliderIconNodeList[this.currentImageIndex].style.color = 'gray'
         }
     }
@@ -60,7 +60,7 @@ class ImageSlider {
 
             this.imagesNodeList[this.currentImageIndex].style.display = 'flex'
             TweenMax.from(this.imagesNodeList[this.currentImageIndex], 1, {x: -50})
-            TweenMax.to(this.imagesNodeList[this.currentImageIndex], 2, {opacity: 1})
+            TweenMax.to(this.imagesNodeList[this.currentImageIndex], 1, {ease: Power1.easeIn, opacity: 1})
             this.sliderIconNodeList[this.currentImageIndex].style.color = 'gray'
         } else {
             this.imagesNodeList[this.currentImageIndex].style.display = 'none'
@@ -71,7 +71,7 @@ class ImageSlider {
 
             this.imagesNodeList[this.currentImageIndex].style.display = 'flex'
             TweenMax.from(this.imagesNodeList[this.currentImageIndex], 1, {x: -50})
-            TweenMax.to(this.imagesNodeList[this.currentImageIndex], 2, {opacity: 1})
+            TweenMax.to(this.imagesNodeList[this.currentImageIndex], 1, {ease: Power1.easeIn, opacity: 1})
             this.sliderIconNodeList[this.currentImageIndex].style.color = 'gray'
         }
     }
