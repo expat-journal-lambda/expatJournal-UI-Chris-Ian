@@ -644,7 +644,13 @@ footer p {
   padding-right: 20px;
   cursor: pointer;
 }
+.container.team article section .social-links img.github-icon:hover {
+  opacity: 0.5;
+}
 .container.team article section .social-links img.linkedin-icon {
   height: 40px;
   cursor: pointer;
+}
+.container.team article section .social-links img.linkedin-icon:hover {
+  opacity: 0.5;
 }
