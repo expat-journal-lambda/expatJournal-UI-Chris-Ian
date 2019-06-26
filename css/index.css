@@ -173,6 +173,9 @@ header .nav-link a {
   font-size: 2.5rem;
   color: white;
 }
+header .nav-link a:hover {
+  color: lightgray;
+}
 header .login-links {
   width: 33%;
   display: flex;
@@ -185,6 +188,11 @@ header .login-links a {
   color: white;
   border: 1px white solid;
   padding: 10px;
+}
+header .login-links a:hover {
+  background-color: white;
+  color: #062135;
+  border: 1px solid #062135;
 }
 .main-hero-text {
   height: 700px;
@@ -258,6 +266,8 @@ header .login-links a {
   margin-bottom: 200px;
   font-size: 1.6rem;
   cursor: pointer;
+  background-color: #04b169;
+  color: white;
 }
 @media (max-width: 500px) {
   .main-hero-text button {
@@ -268,6 +278,9 @@ header .login-links a {
   .main-hero-text button {
     margin-bottom: 0px;
   }
+}
+.main-hero-text button:hover {
+  background-color: #01995a;
 }
 .container {
   max-width: 1200px;
@@ -465,6 +478,11 @@ header .login-links a {
   width: 140px;
   font-size: 1.6rem;
   cursor: pointer;
+  background-color: #04b169;
+  color: white;
+}
+.call-to-action button:hover {
+  background-color: #01995a;
 }
 footer {
   height: 150px;
@@ -494,6 +512,9 @@ footer .footer-container nav a {
   text-decoration: none;
   font-size: 2.5rem;
   color: white;
+}
+footer .footer-container a:hover {
+  color: lightgray;
 }
 footer .footer-container img.to-top-arrow {
   padding-right: 30px;
