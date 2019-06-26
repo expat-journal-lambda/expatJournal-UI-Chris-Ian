@@ -362,6 +362,7 @@ header .login-links a {
 }
 @media (max-width: 500px) {
   .container .features-section article section img.feature-icon {
+    width: 50%;
     margin-right: 0px;
     padding-bottom: 20px;
   }
@@ -520,6 +521,7 @@ footer p {
 }
 .container.team .filter-label {
   font-size: 1.75rem;
+  padding-right: 10px;
 }
 @media (max-width: 800px) {
   .container.team .filter-label {
@@ -555,6 +557,16 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 300;
+  cursor: pointer;
+}
+.container.team .roles .tab:hover {
+  text-decoration: underline;
+}
+.container.team .roles .active-tab {
+  background-color: #062135;
+  color: white;
+  border: 2px #062135 solid;
 }
 .container.team article {
   display: flex;
