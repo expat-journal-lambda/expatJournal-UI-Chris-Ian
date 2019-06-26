@@ -446,18 +446,18 @@ header .login-links a:hover {
   font-size: 4rem;
 }
 .container .features-section aside .image-slider img {
-  width: 100%;
+  width: 90%;
   padding-bottom: 30px;
   display: none;
 }
 .container .features-section aside .image-slider .left-button,
 .container .features-section aside .image-slider .right-button {
-  color: grey;
+  color: #04b169;
   cursor: pointer;
 }
 .container .features-section aside .image-slider .left-button:hover,
 .container .features-section aside .image-slider .right-button:hover {
-  color: #062135;
+  color: #01995a;
 }
 .container .features-section aside .image-slider .left-button {
   margin-right: 30px;
