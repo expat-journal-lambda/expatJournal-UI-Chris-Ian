@@ -449,6 +449,7 @@ header .login-links a:hover {
   width: 90%;
   padding-bottom: 30px;
   display: none;
+  opacity: 0;
 }
 .container .features-section aside .image-slider .left-button,
 .container .features-section aside .image-slider .right-button {
