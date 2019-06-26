@@ -571,7 +571,7 @@ footer p {
 .container.team article {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .container.team article section {
