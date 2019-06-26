@@ -418,7 +418,9 @@ header .login-links a:hover {
   width: 45%;
   margin-right: 5%;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 @media (max-width: 500px) {
   .container .features-section aside {
@@ -438,6 +440,30 @@ header .login-links a:hover {
 }
 .container .features-section aside img {
   width: 100%;
+}
+.container .features-section aside .slider-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 33%;
+  font-size: 4rem;
+}
+.container .features-section aside .slider-buttons .left-button,
+.container .features-section aside .slider-buttons .right-button {
+  color: grey;
+  cursor: pointer;
+}
+.container .features-section aside .slider-buttons .left-button:hover,
+.container .features-section aside .slider-buttons .right-button:hover {
+  color: #062135;
+}
+.container .features-section aside .slider-buttons .left-button {
+  margin-right: 10px;
+}
+.container .features-section aside .slider-buttons .right-button {
+  margin-left: 10px;
+}
+.container .features-section aside .slider-buttons .slider-icon {
+  color: lightgray;
 }
 .call-to-action {
   height: 300px;

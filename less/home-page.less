@@ -379,7 +379,9 @@ header {
             width: 45%;
             margin-right: 5%;
             display: flex;
+            flex-direction: column;
             align-items: center;
+            justify-content: space-evenly;
 
             @media @mobile {
                 width: 90%;
@@ -397,6 +399,35 @@ header {
 
             img {
                 width: 100%;
+                // display: none;
+            }
+
+            .slider-buttons {
+                display: flex;
+                justify-content: space-evenly;
+                width: 33%;
+                font-size: 4rem;
+            
+                .left-button, .right-button {
+                    color: grey;
+                    cursor: pointer;
+                }
+
+                .left-button:hover, .right-button:hover {
+                    color: #062135;
+                }
+
+                .left-button {
+                    margin-right: 10px;
+                }
+
+                .right-button {
+                    margin-left: 10px;
+                }
+                
+                .slider-icon {
+                    color: lightgray;
+                }
             }
         }
     }
