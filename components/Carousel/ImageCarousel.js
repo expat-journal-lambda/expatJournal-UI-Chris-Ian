@@ -8,6 +8,13 @@ class ImageSlider {
 
         this.leftButton.addEventListener('click', () => this.clickLeftButton())
         this.rightButton.addEventListener('click', () => this.clickRightButton())
+    
+        this.currentImageIndex = 0;
+
+        this.imagesNodeList = this.element.getElementsByTagName('img')
+        this.sliderIconNodeList = this.element.querySelectorAll('.slider-icon')
+        console.log(this.imagesNodeList)
+        console.log(this.sliderIconNodeList)
     }
 
     clickLeftButton(){
