@@ -438,31 +438,33 @@ header .login-links a:hover {
     padding-bottom: 60px;
   }
 }
-.container .features-section aside img {
-  width: 100%;
-}
-.container .features-section aside .slider-buttons {
+.container .features-section aside .image-slider {
   display: flex;
-  justify-content: space-evenly;
-  width: 33%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   font-size: 4rem;
 }
-.container .features-section aside .slider-buttons .left-button,
-.container .features-section aside .slider-buttons .right-button {
+.container .features-section aside .image-slider img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.container .features-section aside .image-slider .left-button,
+.container .features-section aside .image-slider .right-button {
   color: grey;
   cursor: pointer;
 }
-.container .features-section aside .slider-buttons .left-button:hover,
-.container .features-section aside .slider-buttons .right-button:hover {
+.container .features-section aside .image-slider .left-button:hover,
+.container .features-section aside .image-slider .right-button:hover {
   color: #062135;
 }
-.container .features-section aside .slider-buttons .left-button {
-  margin-right: 10px;
+.container .features-section aside .image-slider .left-button {
+  margin-right: 30px;
 }
-.container .features-section aside .slider-buttons .right-button {
-  margin-left: 10px;
+.container .features-section aside .image-slider .right-button {
+  margin-left: 30px;
 }
-.container .features-section aside .slider-buttons .slider-icon {
+.container .features-section aside .image-slider .slider-icon {
   color: lightgray;
 }
 .call-to-action {
