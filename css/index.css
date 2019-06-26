@@ -560,18 +560,28 @@ footer p {
 }
 .container.team .title-text {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .container.team .title-text h1 {
   color: #062135;
   font-size: 5rem;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 @media (max-width: 500px) {
   .container.team .title-text h1 {
     padding-bottom: 20px;
   }
+}
+.container.team .title-text p {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: gray;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .container.team .tabs {
   display: flex;

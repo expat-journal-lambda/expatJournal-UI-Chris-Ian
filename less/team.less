@@ -2,17 +2,29 @@
     
     .title-text {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        // justify-content: space-evenly;
+        align-items: center;
 
         h1 {
             color: #062135;
             font-size: 5rem;
             padding-top: 50px;
-            padding-bottom: 50px;
+            padding-bottom: 20px;
 
             @media @mobile {
                 padding-bottom: 20px;
             }
+        }
+
+        p {
+            width: 90%;
+            padding-left: 5%;
+            padding-right: 5%;
+            color: gray;
+            font-size: 2rem;
+            padding-bottom: 20px;
+            text-align: center;
         }
     }
 
