@@ -161,6 +161,7 @@ header img {
   width: 33%;
   display: flex;
   padding-left: 30px;
+  cursor: pointer;
 }
 header .nav-link {
   width: 33%;
@@ -256,6 +257,7 @@ header .login-links a {
   width: 140px;
   margin-bottom: 200px;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .main-hero-text button {
@@ -462,6 +464,7 @@ header .login-links a {
   height: 50px;
   width: 140px;
   font-size: 1.6rem;
+  cursor: pointer;
 }
 footer {
   height: 150px;
@@ -485,6 +488,7 @@ footer .footer-container {
 }
 footer .footer-container img.logo {
   padding-left: 30px;
+  cursor: pointer;
 }
 footer .footer-container nav a {
   text-decoration: none;
@@ -493,6 +497,7 @@ footer .footer-container nav a {
 }
 footer .footer-container img.to-top-arrow {
   padding-right: 30px;
+  cursor: pointer;
 }
 footer p {
   color: white;
@@ -616,7 +621,9 @@ footer p {
 .container.team article section .social-links img.github-icon {
   height: 40px;
   padding-right: 20px;
+  cursor: pointer;
 }
 .container.team article section .social-links img.linkedin-icon {
   height: 40px;
+  cursor: pointer;
 }
