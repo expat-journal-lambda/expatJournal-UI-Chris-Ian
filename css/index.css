@@ -405,6 +405,7 @@ header .login-links a:hover {
 .container .features-section article section .feature-text p {
   font-size: 1.6rem;
   color: grey;
+  line-height: 1.6;
 }
 @media (max-width: 500px) {
   .container .features-section article section .feature-text p {
@@ -529,7 +530,7 @@ footer {
 footer .footer-container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 @media (max-width: 500px) {
   footer .footer-container {
@@ -539,7 +540,6 @@ footer .footer-container {
   }
 }
 footer .footer-container img.logo {
-  padding-left: 30px;
   cursor: pointer;
 }
 footer .footer-container nav a {
@@ -550,8 +550,9 @@ footer .footer-container nav a {
 footer .footer-container a:hover {
   color: lightgray;
 }
-footer .footer-container img.to-top-arrow {
-  padding-right: 30px;
+footer .footer-container .to-top-arrow {
+  color: white;
+  font-size: 5rem;
   cursor: pointer;
 }
 footer p {

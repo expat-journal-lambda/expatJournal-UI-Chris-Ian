@@ -359,6 +359,8 @@ header {
                     p {
                         font-size: 1.6rem;
                         color: grey;
+                        line-height: 1.6;
+
 
                         @media @mobile {
                             text-align: center;
@@ -505,7 +507,7 @@ footer {
     .footer-container {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
 
         @media @mobile {
             width: 90%;
@@ -514,7 +516,7 @@ footer {
         }
 
         img.logo {
-            padding-left: 30px;
+            // padding-left: 30px;
             cursor: pointer;
         }
 
@@ -528,8 +530,10 @@ footer {
             color: lightgray;
         }
 
-        img.to-top-arrow {
-            padding-right: 30px;
+        .to-top-arrow {
+            color: white;
+            font-size: 5rem;
+            // padding-right: 30px;
             cursor: pointer;
         }
     }
