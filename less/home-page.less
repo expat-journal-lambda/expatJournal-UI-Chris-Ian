@@ -138,20 +138,20 @@ header {
     justify-content: center;
     text-align: center;
 
-    @media @mobile {
-        width: 100%;
-        background-image: none;
-        justify-content: center;
-        align-items: center;
-        height: 500px;
-      }
-
     @media @tablet {
         width: 100%;
         background-image: none;
         justify-content: center;
         align-items: center;
         height: 500px;
+    }
+
+    @media @mobile {
+        width: 100%;
+        background-image: none;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
     }
 
     h1 {
@@ -175,14 +175,14 @@ header {
         font-size: 1.8rem;
         padding-bottom: 10px;
 
-        @media @mobile {
-            width: 80%;
-            font-size: 1.8rem;
-        }
-
         @media @tablet {
             margin-left: 5%;
             margin-right: 5%;
+        }
+
+        @media @mobile {
+            width: 80%;
+            font-size: 1.8rem;
         }
     }
 
@@ -196,11 +196,11 @@ header {
         background-color: #04b169;
         color: white;
 
-        @media @mobile {
+        @media @tablet {
             margin-bottom: 0px;
         }
 
-        @media @tablet {
+        @media @mobile {
             margin-bottom: 0px;
         }
     }
@@ -231,12 +231,12 @@ header {
         padding-top: 60px;
         padding-bottom: 60px;
 
-        @media @mobile {
+        @media @tablet {
             margin-left: 5%;
             margin-right: 5%;
         }
 
-        @media @tablet {
+        @media @mobile {
             margin-left: 5%;
             margin-right: 5%;
         }
@@ -261,16 +261,17 @@ header {
     .features-section {
 
         display: flex;
-        padding-bottom: 60px;
+        // padding-bottom: 60px;
 
-        @media @mobile {
+
+        @media @tablet {
             margin-left: 5%;
             margin-right: 5%;
             flex-direction: column-reverse;
             padding-bottom: 0px;
         }
 
-        @media @tablet {
+        @media @mobile {
             margin-left: 5%;
             margin-right: 5%;
             flex-direction: column-reverse;
@@ -281,23 +282,29 @@ header {
 
             width: 45%;
             margin-left: 5%;
-
-            @media @mobile {
-                width: 90%;
-                margin-left: 5%;
-                margin-right: 5%;
-            }
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
 
             @media @tablet {
                 width: 90%;
+                height: 400px;
                 margin-left: 5%;
                 margin-right: 5%;
-                justify-content: center;
+                justify-content: space-evenly;
+            }
+
+            @media @mobile {
+                width: 90%;
+                height: 1200px;
+                margin-left: 5%;
+                margin-right: 5%;
             }
 
             section {
                 display: flex;
                 align-items: center;
+                // justify-content: center;
 
                 @media @mobile {
                     // width: 90%;
@@ -335,7 +342,7 @@ header {
                 .feature-text {
                     display: flex;
                     flex-direction: column;
-                    // width: 
+                    // justify-content: space-around;
 
                     h3 {
                         font-size: 2.5rem;
@@ -383,14 +390,14 @@ header {
             align-items: center;
             justify-content: space-evenly;
 
-            @media @mobile {
+            @media @tablet {
                 width: 90%;
                 margin-left: 5%;
                 margin-right: 5%;
                 padding-bottom: 60px;
             }
 
-            @media @tablet {
+            @media @mobile {
                 width: 90%;
                 margin-left: 5%;
                 margin-right: 5%;

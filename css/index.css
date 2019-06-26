@@ -207,7 +207,7 @@ header .login-links a:hover {
   justify-content: center;
   text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .main-hero-text {
     width: 100%;
     background-image: none;
@@ -216,13 +216,13 @@ header .login-links a:hover {
     height: 500px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .main-hero-text {
     width: 100%;
     background-image: none;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
   }
 }
 .main-hero-text h1 {
@@ -247,16 +247,16 @@ header .login-links a:hover {
   font-size: 1.8rem;
   padding-bottom: 10px;
 }
-@media (max-width: 500px) {
-  .main-hero-text p {
-    width: 80%;
-    font-size: 1.8rem;
-  }
-}
 @media (max-width: 800px) {
   .main-hero-text p {
     margin-left: 5%;
     margin-right: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .main-hero-text p {
+    width: 80%;
+    font-size: 1.8rem;
   }
 }
 .main-hero-text button {
@@ -269,12 +269,12 @@ header .login-links a:hover {
   background-color: #04b169;
   color: white;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .main-hero-text button {
     margin-bottom: 0px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .main-hero-text button {
     margin-bottom: 0px;
   }
@@ -296,13 +296,13 @@ header .login-links a:hover {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .container .features-title {
     margin-left: 5%;
     margin-right: 5%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .container .features-title {
     margin-left: 5%;
     margin-right: 5%;
@@ -325,9 +325,8 @@ header .login-links a:hover {
 }
 .container .features-section {
   display: flex;
-  padding-bottom: 60px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .container .features-section {
     margin-left: 5%;
     margin-right: 5%;
@@ -335,7 +334,7 @@ header .login-links a:hover {
     padding-bottom: 0px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .container .features-section {
     margin-left: 5%;
     margin-right: 5%;
@@ -346,20 +345,25 @@ header .login-links a:hover {
 .container .features-section article {
   width: 45%;
   margin-left: 5%;
-}
-@media (max-width: 500px) {
-  .container .features-section article {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 @media (max-width: 800px) {
   .container .features-section article {
     width: 90%;
+    height: 400px;
     margin-left: 5%;
     margin-right: 5%;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 500px) {
+  .container .features-section article {
+    width: 90%;
+    height: 1200px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 .container .features-section article section {
@@ -422,7 +426,7 @@ header .login-links a:hover {
   align-items: center;
   justify-content: space-evenly;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .container .features-section aside {
     width: 90%;
     margin-left: 5%;
@@ -430,7 +434,7 @@ header .login-links a:hover {
     padding-bottom: 60px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .container .features-section aside {
     width: 90%;
     margin-left: 5%;

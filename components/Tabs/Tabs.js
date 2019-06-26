@@ -1,16 +1,20 @@
-// console.log('hello world')
-
 class TabFilter {
     constructor(tabElement){
+
+        // assign this.tabElement to the tabElement DOM reference
         this.tabElement = tabElement;
 
+        // get the 'data-tab' value from the dataset of this.tabElement
         this.tabData = this.tabElement.dataset.tab;
 
-        // console.log(this.tabData);
-
+        // check to see if 'all' is selected
         if(this.tabData === 'all'){
+
+            // if true grab all the team members
             this.members = document.querySelectorAll('.member');
         } else {
+
+            // else only select the team members with matching 'data-tab' values
             this.members = document.querySelectorAll(`.member[data-tab="${this.tabData}"]`);
         }
 
@@ -44,7 +48,8 @@ class MemberSection {
     }
 }
 
+// grab reference to tabs
 let tabsNodeList = document.querySelectorAll('.tab');
-// console.log(tabsNodeList)
 
+// return a new instance of TabFilter for each tabsNodeList
 tabsNodeList.forEach(tab => new TabFilter(tab))
