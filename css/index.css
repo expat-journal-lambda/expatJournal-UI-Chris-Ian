@@ -460,8 +460,8 @@ header .login-links a:hover {
 }
 .container .features-section aside .image-slider {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 4rem;
 }
@@ -596,9 +596,9 @@ footer p {
 }
 .container.team .tabs {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
+  justify-content: center;
+  padding-bottom: 60px;
 }
 .container.team .filter-label {
   font-size: 1.75rem;
@@ -653,8 +653,8 @@ footer p {
 .container.team article {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .container.team article section {
   flex-direction: column;
@@ -714,4 +714,12 @@ footer p {
   text-decoration: none;
   font-size: 2.5rem;
   color: white;
+}
+.flex-centered {
+  align-items: center;
+  justify-content: center;
+}
+.left-right-spacing {
+  margin-left: 5%;
+  margin-right: 5%;
 }
