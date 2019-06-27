@@ -29,6 +29,6 @@ __MVP:__ User can visit site and see photos laid out in a grid, travelers can cr
 __Stretch Goal:__ Build an image uploader into the site to allow users the ability to upload their own assets. (This will require some work with a package called Drop Zone and a service called cloudinary.)
 </details>
 
-[picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/index-page.png "Landing Page")
+![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/index-page.png "Landing Page")
 
-[picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/team-page.png "Team Page")
+![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/team-page.png "Team Page")
