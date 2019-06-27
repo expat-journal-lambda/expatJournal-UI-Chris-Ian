@@ -13,7 +13,7 @@ class ImageSlider {
     
         // set default index for current image in slider
         this.currentImageIndex = 0;
-        
+
         // create NodeList for images in slider
         this.imagesNodeList = this.element.getElementsByTagName('img')
 
@@ -31,8 +31,7 @@ class ImageSlider {
         this.imagesNodeListLength = this.imagesNodeList.length
 
         // define the index of the last image in NodeList of images
-        this.indexOfLastImage = this.imagesNodeListLength - 1
-        
+        this.indexOfLastImage = this.imagesNodeListLength - 1  
     }
 
     // method for left button click to remove custom css properties of active image & icon, 
@@ -70,7 +69,7 @@ class ImageSlider {
 
     // method for right button click to remove custom css properties of active image & icon, 
     // then increase the index of current image by 1,
-    // and add cutom css properties to image & icon of new current index
+    // and add custom css properties to image & icon of new current index
     // if at end of nodelist of Images, set current index to that of first image in NodeList
     // added GreenSock animations to slide image in from left, while increasing its opacity from 0 to 1
 
