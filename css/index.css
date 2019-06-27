@@ -157,12 +157,27 @@ header {
     justify-content: center;
   }
 }
-header p {
+header .image-container {
   width: 33%;
-  display: flex;
+}
+header .image-container .logo {
   padding-left: 30px;
-  font-size: 2.5rem;
-  color: white;
+}
+@media (max-width: 500px) {
+  header .image-container .logo {
+    display: none;
+  }
+}
+header .image-container p {
+  display: none;
+}
+@media (max-width: 500px) {
+  header .image-container p {
+    display: flex;
+    font-size: 2.5rem;
+    color: white;
+    padding-left: 30px;
+  }
 }
 header .nav-link {
   width: 33%;
@@ -181,7 +196,6 @@ header .login-links {
   width: 33%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 30px;
 }
 header .login-links a {
   text-decoration: none;
@@ -189,6 +203,7 @@ header .login-links a {
   color: white;
   border: 1px white solid;
   padding: 10px;
+  margin-right: 30px;
 }
 header .login-links a:hover {
   background-color: white;
