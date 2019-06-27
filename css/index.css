@@ -282,11 +282,11 @@ header .login-links a:hover {
   margin-top: 30px;
   height: 50px;
   width: 140px;
-  margin-bottom: 200px;
   font-size: 1.6rem;
   cursor: pointer;
   background-color: #04b169;
   color: white;
+  margin-bottom: 200px;
 }
 @media (max-width: 800px) {
   .main-hero-text button {
@@ -734,4 +734,13 @@ footer p {
 .left-right-spacing {
   margin-left: 5%;
   margin-right: 5%;
+}
+.button-style {
+  margin-top: 30px;
+  height: 50px;
+  width: 140px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: #04b169;
+  color: white;
 }
