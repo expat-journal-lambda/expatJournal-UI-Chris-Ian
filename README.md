@@ -1,6 +1,10 @@
-# Build Week Group Project #
+# expatJournal-UI-Chris-Ian #
 
-## Build the HTML/CSS/JS Marketing Page / User Interface for Website ##
+## Build Week Group Project ##
+
+### Build the HTML/CSS/JS Marketing Page / User Interface for Website ###
+
+Markup : ![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/index-page.png "Landing Page")
 
 My role in the group was 'User Interface Developer', where my goals were:
 
