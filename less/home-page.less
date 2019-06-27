@@ -69,14 +69,11 @@ html {
 header {
     background: @expat-journal-primary;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    .width-flex(100%, space-between);
 
     @media @mobile {
-        width: 100%;
-        justify-content: center;
+        .width-flex(100%, center);
     }
 
     .image-container{
@@ -104,9 +101,7 @@ header {
     }
 
     .nav-link {
-        width: 33%;
-        display: flex;
-        justify-content: center;
+        .width-flex(33%, center);
 
         a {
             .nav-link-a;
@@ -118,9 +113,7 @@ header {
     }
 
     .login-links {
-        width: 33%;
-        display:flex;
-        justify-content: flex-end;
+        .width-flex(33%, flex-end);
 
         a {
             .nav-link-a;
@@ -152,19 +145,17 @@ header {
     text-align: center;
 
     @media @tablet {
-        width: 100%;
         background-image: none;
-        justify-content: center;
         align-items: center;
         height: 500px;
+        .width-flex(100%, center);
     }
 
     @media @mobile {
-        width: 100%;
         background-image: none;
-        justify-content: center;
         align-items: center;
         height: 600px;
+        .width-flex(100%, center);
     }
 
     h1 {
@@ -283,18 +274,16 @@ header {
         }
 
         article {
-            width: 45%;
             margin-left: @global-margin;
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            .width-flex(45%, space-evenly);
 
             @media @tablet {
-                width: 90%;
                 height: 400px;
                 margin-left: @global-margin;
                 margin-right: @global-margin;
-                justify-content: space-evenly;
+                .width-flex(90%, space-evenly);
             }
 
             @media @mobile {
@@ -356,12 +345,11 @@ header {
         } 
         
         aside {
-            width: 45%;
             margin-right: @global-margin;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-evenly;
+            .width-flex(45%, space-evenly);
 
             @media @tablet {
                 width: 90%;
@@ -473,9 +461,8 @@ footer {
     background-color: @expat-journal-primary;
 
     .footer-container {
-        width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        .width-flex(100%, space-evenly);
 
         @media @mobile {
             width: 90%;

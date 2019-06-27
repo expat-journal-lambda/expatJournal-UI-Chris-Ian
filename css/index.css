@@ -146,14 +146,15 @@ html {
 header {
   background: #062135;
   height: 80px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 @media (max-width: 500px) {
   header {
     width: 100%;
+    display: flex;
     justify-content: center;
   }
 }
@@ -225,20 +226,22 @@ header .login-links a:hover {
 }
 @media (max-width: 800px) {
   .main-hero-text {
-    width: 100%;
     background-image: none;
-    justify-content: center;
     align-items: center;
     height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 500px) {
   .main-hero-text {
-    width: 100%;
     background-image: none;
-    justify-content: center;
     align-items: center;
     height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 .main-hero-text h1 {
@@ -359,18 +362,19 @@ header .login-links a:hover {
   }
 }
 .container .features-section article {
-  width: 45%;
   margin-left: 5%;
-  display: flex;
   flex-direction: column;
+  width: 45%;
+  display: flex;
   justify-content: space-evenly;
 }
 @media (max-width: 800px) {
   .container .features-section article {
-    width: 90%;
     height: 400px;
     margin-left: 5%;
     margin-right: 5%;
+    width: 90%;
+    display: flex;
     justify-content: space-evenly;
   }
 }
@@ -431,11 +435,11 @@ header .login-links a:hover {
   }
 }
 .container .features-section aside {
-  width: 45%;
   margin-right: 5%;
-  display: flex;
   flex-direction: column;
   align-items: center;
+  width: 45%;
+  display: flex;
   justify-content: space-evenly;
 }
 @media (max-width: 800px) {
