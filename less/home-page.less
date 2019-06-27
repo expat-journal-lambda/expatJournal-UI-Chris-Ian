@@ -67,7 +67,7 @@ html {
 // 
 
 header {
-    background: #062135;
+    background: @expat-journal-primary;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -97,7 +97,7 @@ header {
             @media @mobile {
                 display: flex;
                 font-size: 2.5rem;
-                color: white;
+                color: @expat-journal-white;
                 padding-left: 30px;
             }
         }
@@ -111,11 +111,11 @@ header {
         a {
             text-decoration: none;
             font-size: 2.5rem;
-            color: white;
+            color: @nav-click-elements;
         }
 
         a:hover {
-            color: lightgray;
+            color: @nav-click-elements-hover;
         }
     }
 
@@ -127,16 +127,16 @@ header {
         a {
             text-decoration: none;
             font-size: 2.5rem;
-            color: white;
-            border: 1px white solid;
+            color: @nav-click-elements;
+            border: 1px solid @expat-journal-white;
             padding: 10px;
             margin-right: 30px;
         }
 
         a:hover { 
-            background-color: white;
-            color:  #062135;
-            border: 1px solid  #062135;
+            background-color: @nav-click-elements;
+            color: @expat-journal-primary;
+            border: 1px solid @expat-journal-primary;
         }
     }
 }
@@ -144,7 +144,7 @@ header {
 
 .main-hero-text {
     height: 700px;
-    background-color: #062135;
+    background-color: @expat-journal-primary;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23386fa4' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2384d2f6' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%233e7aae' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2385d6f6' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%234584b9' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2387daf6' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%234b8fc3' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%238adef6' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23529ace' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238de1f6' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2359a5d8' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2391e5f6' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     /* background by SVGBackgrounds.com */
     background-attachment: fixed;
@@ -172,29 +172,29 @@ header {
     }
 
     h1 {
-        color: white;
+        color: @expat-journal-white;
         font-size: 6rem;
         padding-bottom: 20px;
 
         @media @mobile {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
         }
 
         @media @tablet {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
         }
     }
     
     p {
-        color: white;
+        color: @expat-journal-white;
         font-size: 1.8rem;
         padding-bottom: 10px;
 
         @media @tablet {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
         }
 
         @media @mobile {
@@ -210,8 +210,8 @@ header {
         margin-bottom: 200px;
         font-size: 1.6rem;
         cursor: pointer;
-        background-color: #04b169;
-        color: white;
+        background-color: @body-click-elements;
+        color: @expat-journal-white;
 
         @media @tablet {
             margin-bottom: 0px;
@@ -223,7 +223,7 @@ header {
     }
 
     button:hover { 
-        background-color: #01995a;
+        background-color: @body-click-elements-hover;
     }
 }
 
@@ -242,18 +242,18 @@ header {
         padding-bottom: 60px;
 
         @media @tablet {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
         }
 
         @media @mobile {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
         }
 
         h2 {
             font-size: 5rem;
-            color: #062135;
+            color: @expat-journal-primary;
             padding-bottom: 20px;
         }
 
@@ -273,22 +273,22 @@ header {
         display: flex;
 
         @media @tablet {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
             flex-direction: column-reverse;
             padding-bottom: 0px;
         }
 
         @media @mobile {
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
             flex-direction: column-reverse;
             padding-bottom: 0px;
         }
 
         article {
             width: 45%;
-            margin-left: 5%;
+            margin-left: @global-margin;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -296,16 +296,16 @@ header {
             @media @tablet {
                 width: 90%;
                 height: 400px;
-                margin-left: 5%;
-                margin-right: 5%;
+                margin-left: @global-margin;
+                margin-right: @global-margin;
                 justify-content: space-evenly;
             }
 
             @media @mobile {
                 width: 90%;
                 height: 1200px;
-                margin-left: 5%;
-                margin-right: 5%;
+                margin-left: @global-margin;
+                margin-right: @global-margin;
             }
 
             section {
@@ -333,7 +333,7 @@ header {
 
                     h3 {
                         font-size: 2.5rem;
-                        color: #062135;
+                        color: @expat-journal-primary;
                         padding-bottom: 10px;
 
                         @media @mobile {
@@ -355,19 +355,13 @@ header {
                             font-size: 1.8rem;
                         }
                     }
-
-                    hr {
-                        border: 1px solid whitesmoke;
-                        margin-top: 25px;
-                        margin-bottom: 25px;
-                    }
                 }
             }
         } 
         
         aside {
             width: 45%;
-            margin-right: 5%;
+            margin-right: @global-margin;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -375,15 +369,15 @@ header {
 
             @media @tablet {
                 width: 90%;
-                margin-left: 5%;
-                margin-right: 5%;
+                margin-left: @global-margin;
+                margin-right: @global-margin;
                 padding-bottom: 60px;
             }
 
             @media @mobile {
                 width: 90%;
-                margin-left: 5%;
-                margin-right: 5%;
+                margin-left: @global-margin;
+                margin-right: @global-margin;
                 padding-bottom: 60px;
             }
 
@@ -402,12 +396,12 @@ header {
                 }
             
                 .left-button, .right-button {
-                    color: #04b169;
+                    color: @body-click-elements;
                     cursor: pointer;
                 }
 
                 .left-button:hover, .right-button:hover {
-                    color: #01995a;
+                    color: @body-click-elements-hover;
                 }
 
                 .left-button {
@@ -437,13 +431,13 @@ header {
 
     h2 {
         font-size: 5rem;
-        color: #062135;
+        color: @expat-journal-primary;
         padding-bottom: 20px;
 
         @media @mobile {
             width: 90%;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
         }
     }
 
@@ -453,8 +447,8 @@ header {
 
         @media @mobile {
             width: 90%;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
             font-size: 1.8rem;
         }
     }
@@ -465,12 +459,12 @@ header {
         width: 140px;
         font-size: 1.6rem;
         cursor: pointer;
-        background-color: #04b169;
-        color: white;
+        background-color: @body-click-elements;
+        color: @expat-journal-white;
     }
 
     button:hover { 
-        background-color: #01995a;
+        background-color: @body-click-elements-hover;
     }
 }
 
@@ -480,7 +474,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #062135;
+    background-color: @expat-journal-primary;
 
     .footer-container {
         width: 100%;
@@ -489,8 +483,8 @@ footer {
 
         @media @mobile {
             width: 90%;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: @global-margin;
+            margin-right: @global-margin;
         }
 
         img.logo {
@@ -500,22 +494,16 @@ footer {
         nav a {
             text-decoration: none;
             font-size: 2.5rem;
-            color: white;
+            color: @nav-click-elements;
         }
 
         a:hover {
-            color: lightgray;
-        }
-
-        .to-top-arrow {
-            color: white;
-            font-size: 5rem;
-            cursor: pointer;
+            color: @nav-click-elements-hover;
         }
     }
 
     p {
-        color: white;
+        color: @expat-journal-white;
         font-size: 1.5rem;
     }
 }
