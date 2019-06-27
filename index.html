@@ -1,96 +1,90 @@
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Expat Journal</title>
-  
-  <link rel="stylesheet" href="css/index.css">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <script src="./components/Carousel/ImageCarousel.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-  
-</head>
-
-<body>
-    <header>
-        <div class="image-container">
-            <img class="logo" src="img/logo.png" alt="Expat Journal's logo">
-            <p>EXPAT JOURNAL</p>
+    <head>
+        <meta charset="utf-8">
+        <title>Expat Journal</title>
+        <link rel="stylesheet" href="css/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./components/Carousel/ImageCarousel.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script> 
+    </head>
+    <body>
+        <header>
+            <div class="image-container">
+                <img class="logo" src="img/logo.png" alt="Expat Journal's logo">
+                <p>EXPAT JOURNAL</p>
+            </div>
+            <div class="nav-link">
+                <nav>
+                    <a href="team.html">Team</a>
+                </nav>
+            </div>
+            <div class="login-links">
+                <nav>
+                    <a href="https://expat-journal.netlify.com/?auth=open">Login</a>
+                </nav>
+            </div>
+        </header>
+        <div class="main-hero-text">
+            <h1>Looking for a way to record your adventures?</h1>
+            <p>If you can't bear to forget that trip abroad or even a weekend adventure, create an account or log in to Expat Journal.</p> 
+            <p>A simple, fun, & creative way to edit & share photos & stories with friends & family.</p>
+            <button onclick="window.location.href = 'https://expat-journal.netlify.com/?auth=open';">Get started</button>
         </div>
-        <div class="nav-link">
-            <nav>
-                <a href="team.html">Team</a>
-            </nav>
-        </div>
-        <div class="login-links">
-            <nav>
-                <a href="https://expat-journal.netlify.com/?auth=open">Login</a>
-            </nav>
-        </div>
-    </header>
-    <div class="main-hero-text">
-        <h1>Looking for a way to record your adventures?</h1>
-        <p>If you can't bear to forget that trip abroad or even a weekend adventure, create an account or log in to Expat Journal.</p> 
-        <p>A simple, fun, & creative way to edit & share photos & stories with friends & family.</p>
-        <button onclick="window.location.href = 'https://expat-journal.netlify.com/?auth=open';">Get started</button>
-    </div>
-    <main class="container home">
-        <div class="features-title">
-            <h2>Create your online journal today</h2>
-            <p>Expat Journal has many features which make it the best place to document your travel adventures</p>
-        </div>
-        <div class="features-section">
-            <article>
-                <section>
-                    <img class="feature-icon" src="img/undraw-adventure.svg" alt="Feature 1 Icon">
-                    <div class="feature-text">
-                        <h3>Keep Organized</h3>
-                        <p>Expat Journal brings all your travel memories together, in one central place. Creating an account is free and only takes a few clicks.</p>
+        <main class="container home">
+            <div class="features-title">
+                <h2>Create your online journal today</h2>
+                <p>Expat Journal has many features which make it the best place to document your travel adventures</p>
+            </div>
+            <div class="features-section">
+                <article>
+                    <section>
+                        <img class="feature-icon" src="img/undraw-adventure.svg" alt="Feature 1 Icon">
+                        <div class="feature-text">
+                            <h3>Keep Organized</h3>
+                            <p>Expat Journal brings all your travel memories together, in one central place. Creating an account is free and only takes a few clicks.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img class="feature-icon" src="img/undraw-camera.svg" alt="Feature 2 Icon">
+                        <div class="feature-text">
+                            <h3>Upload your Adventures</h3>
+                            <p>Upload photos, document their location, and write the story that goes with it - never forget a moment again.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img class="feature-icon" src="img/undraw-voice-interface.svg" alt="Feature 3 Icon">
+                        <div class="feature-text">
+                            <h3>View Anywhere</h3>
+                            <p>You, your friends, or family can view your adventures on any device with no account needed.</p>
+                        </div>
+                    </section>
+                </article>
+                <aside>
+                    <div class="image-slider">
+                        <img src="img/undraw_desktop.png" alt="Screenshot of desktop view">
+                        <img src="img/undraw_tablet.png" alt="Screenshot of tablet view">
+                        <img src="img/undraw_mobile.png" alt="Screenshot of mobile view">
+                        <div class="left-button"><</div>
+                        <div class="slider-icon one">o</div>
+                        <div class="slider-icon two">o</div>
+                        <div class="slider-icon three">o</div>
+                        <div class="right-button">></div>
                     </div>
-                </section>
-                <section>
-                    <img class="feature-icon" src="img/undraw-camera.svg" alt="Feature 2 Icon">
-                    <div class="feature-text">
-                        <h3>Upload your Adventures</h3>
-                        <p>Upload photos, document their location, and write the story that goes with it - never forget a moment again.</p>
-                    </div>
-                </section>
-                <section>
-                    <img class="feature-icon" src="img/undraw-voice-interface.svg" alt="Feature 3 Icon">
-                    <div class="feature-text">
-                        <h3>View Anywhere</h3>
-                        <p>You, your friends, or family can view your adventures on any device with no account needed.</p>
-                    </div>
-                </section>
-            </article>
-            <aside>
-                <div class="image-slider">
-                    <img src="img/undraw_desktop.png" alt="Screenshot of desktop view">
-                    <img src="img/undraw_tablet.png" alt="Screenshot of tablet view">
-                    <img src="img/undraw_mobile.png" alt="Screenshot of mobile view">
-                    <div class="left-button"><</div>
-                    <div class="slider-icon one">o</div>
-                    <div class="slider-icon two">o</div>
-                    <div class="slider-icon three">o</div>
-                    <div class="right-button">></div>
-                </div>
-            </aside>
+                </aside>
+            </div>
+        </main>
+        <div class="call-to-action">
+            <h2>Get Started</h2>
+            <p>Opening an account is free and simple, start journalling your adventures now</p>
+            <button onclick="window.location.href = 'https://expat-journal.netlify.com/?auth=open';">Get Started</button>
         </div>
-    </main>
-    <div class="call-to-action">
-        <h2>Get Started</h2>
-        <p>Opening an account is free and simple, start journalling your adventures now</p>
-        <button onclick="window.location.href = 'https://expat-journal.netlify.com/?auth=open';">Get Started</button>
-    </div>
-    <footer>
-        <div class="footer-container">
-            <nav>
-                <a href="team.html">Team</a>
-            </nav>
-        </div>
-        <p><br>© Expat Journal 2019</p>
-    </footer>
-</body>
+        <footer>
+            <div class="footer-container">
+                <nav>
+                    <a href="team.html">Team</a>
+                </nav>
+            </div>
+            <p><br>© Expat Journal 2019</p>
+        </footer>
+    </body>
 </html>
