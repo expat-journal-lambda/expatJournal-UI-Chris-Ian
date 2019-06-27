@@ -138,8 +138,7 @@ header {
     /* background by SVGBackgrounds.com */
     background-attachment: fixed;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
+    .flex-column;
     .flex-centered;
     text-align: center;
 
@@ -216,8 +215,7 @@ header {
     margin-bottom: @global-spacing;
    
     .features-title {
-        display: flex;
-        flex-direction: column;
+        .flex-column;
         .flex-centered;
         text-align: center;
         .top-bottom-spacing;
@@ -265,8 +263,7 @@ header {
 
         article {
             margin-left: @global-margin;
-            display: flex;
-            flex-direction: column;
+            .flex-column;
             .width-flex(45%, space-evenly);
 
             @media @tablet {
@@ -300,8 +297,7 @@ header {
                 }
 
                 .feature-text {
-                    display: flex;
-                    flex-direction: column;
+                    .flex-column;
 
                     h3 {
                         font-size: 2.5rem;
@@ -389,8 +385,7 @@ header {
 
 .call-to-action {
     height: 300px;
-    display: flex;
-    flex-direction: column;
+    .flex-column;
     .flex-centered;
     background-color: lightgray;
     text-align: center;

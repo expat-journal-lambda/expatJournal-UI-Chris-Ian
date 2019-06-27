@@ -719,6 +719,10 @@ footer p {
   align-items: center;
   justify-content: center;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 .align-center {
   display: flex;
   align-items: center;
