@@ -29,7 +29,6 @@ __MVP:__ User can visit site and see photos laid out in a grid, travelers can cr
 
 __Stretch Goal:__ Build an image uploader into the site to allow users the ability to upload their own assets. (This will require some work with a package called Drop Zone and a service called cloudinary.)
 
-<br>
 </details>
 <br>
 
