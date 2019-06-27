@@ -4,7 +4,7 @@
 
 My role in the group was 'User Interface Developer', where my goals were:
 
-* Build a multi-page marketing website that matches the theme chosen by your group and provides the user with details about the product our team has selected to build.
+* Build a multi-page marketing website that matches the theme chosen by my group and provides the user with details about the product our team has selected to build.
 
 * Marketing website must include responsive mobile and desktop screen widths.
 
@@ -17,7 +17,7 @@ My role in the group was 'User Interface Developer', where my goals were:
 * For a second page, create an 'about us' section that includes images of the members of our team, and links to one another’s socials/Github.
 
 <details>
-<summary>Project Decription</summary>
+<summary>Project Description</summary>
 <br>
 
 __Pitch:__ As an expat, I want to be able to show off the places I've been and remember them for myself. I have a lot of amazing pics and stories from around the world I'd like to share, but I need a site that is more professional than Instagram in order to do so.
