@@ -13,7 +13,7 @@ class ImageSlider {
     
         // set default index for current image in slider
         this.currentImageIndex = 0;
-
+        
         // create NodeList for images in slider
         this.imagesNodeList = this.element.getElementsByTagName('img')
 
