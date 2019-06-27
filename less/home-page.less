@@ -216,15 +216,15 @@ header {
 .container {
 	max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: @global-spacing;
    
     .features-title {
         display: flex;
         flex-direction: column;
         .flex-centered;
         text-align: center;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: @global-spacing;
+        padding-bottom: @global-spacing;
 
         @media @tablet {
             margin-left: @global-margin;
@@ -353,14 +353,14 @@ header {
                 width: 90%;
                 margin-left: @global-margin;
                 margin-right: @global-margin;
-                padding-bottom: 60px;
+                padding-bottom: @global-spacing;
             }
 
             @media @mobile {
                 width: 90%;
                 margin-left: @global-margin;
                 margin-right: @global-margin;
-                padding-bottom: 60px;
+                padding-bottom: @global-spacing;
             }
 
             .image-slider {
