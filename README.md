@@ -1,2 +1,28 @@
-# expatJournal-UI-Chris-Ian
-HTML/CSS/JS Website
+# Build Week Group Project #
+
+## Build the HTML/CSS/JS Marketing Page / User Interface for Website ##
+
+My role in the group was 'User Interface Developer', where my goals were:
+
+* Build a multi-page marketing website that matches the theme chosen by your group and provides the user with details about the product our team has selected to build.
+
+* Marketing website must include responsive mobile and desktop screen widths.
+
+* The call to action on the website should be a login button that links the user over to the React application that our Front End Architect built.
+
+* Marketing website must be hosted on a hosting platform like “Netlify” or “Github Pages”.
+
+* Marketing site’s home page should have content and copy that relates to the product that our team worked on.
+
+* For a second page, create an 'about us' section that includes images of the members of our team, and links to one another’s socials/Github.
+
+<details>
+<summary>Project Decription</summary>
+<br>
+
+__Pitch:__ As an expat, I want to be able to show off the places I've been and remember them for myself. I have a lot of amazing pics and stories from around the world I'd like to share, but I need a site that is more professional than Instagram in order to do so.
+
+__MVP:__ User can visit site and see photos laid out in a grid , travelers can create, read, update, and delete stories and photos. (No ability to upload one's own photos for MVP)
+
+__Stretch Goal:__ Build an image uploader into the site to allow users the ability to upload their own assets. (This will require some work with a package called Drop Zone and a service called cloudinary).
+</details>
