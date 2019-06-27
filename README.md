@@ -18,6 +18,7 @@ My role in the group was 'User Interface Developer', where my goals were:
 
 * For a second page, create an 'about us' section that includes images of the members of our team, and links to one another’s socials/Github.
 
+<br>
 <details>
 <summary>Project Description</summary>
 <br>
@@ -27,7 +28,10 @@ __Pitch:__ As an expat, I want to be able to show off the places I've been and r
 __MVP:__ User can visit site and see photos laid out in a grid, travelers can create, read, update, and delete stories and photos. (No ability to upload one's own photos for MVP.)
 
 __Stretch Goal:__ Build an image uploader into the site to allow users the ability to upload their own assets. (This will require some work with a package called Drop Zone and a service called cloudinary.)
+
+<br>
 </details>
+<br>
 
 ![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/index-page.png "Landing Page")
 
