@@ -18,8 +18,8 @@
 
         p {
             width: 90%;
-            padding-left: 5%;
-            padding-right: 5%;
+            padding-left: @global-margin;
+            padding-right: @global-margin;
             color: gray;
             font-size: 2rem;
             padding-bottom: 20px;
@@ -51,11 +51,10 @@
         color: @expat-journal-primary;
 
         @media @tablet {
-            width: 90%;
             margin-left: @global-margin;
             margin-right: @global-margin;
             flex-wrap: wrap;
-            justify-content: center;
+            .width-flex(90%, center);
         }
 
         @media @mobile {
@@ -66,9 +65,8 @@
             border: 1px  #062135 solid;
             margin: 5px;
             height: 40px;
-            width: 150px;
             display: flex;
-            justify-content: center;
+            .width-flex(150px, center);
             align-items: center;  
             font-weight: 300;
             cursor: pointer;
@@ -91,11 +89,10 @@
         align-items: center;
     
         section {
-            width: 33%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            .width-flex(33%, center);
             padding-bottom: 60px;
 
             @media @tablet {
@@ -127,8 +124,7 @@
 
             .social-links {
                 display: flex;
-                width: 100%;
-                justify-content: center;
+                .width-flex(100%, center);
 
                 img.github-icon {
                     height: 40px;

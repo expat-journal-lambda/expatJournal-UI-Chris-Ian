@@ -618,10 +618,11 @@ footer p {
 }
 @media (max-width: 800px) {
   .container.team .roles {
-    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     flex-wrap: wrap;
+    width: 90%;
+    display: flex;
     justify-content: center;
   }
 }
@@ -656,10 +657,10 @@ footer p {
   align-items: center;
 }
 .container.team article section {
-  width: 33%;
-  display: flex;
   flex-direction: column;
   align-items: center;
+  width: 33%;
+  display: flex;
   justify-content: center;
   padding-bottom: 60px;
 }
@@ -690,8 +691,8 @@ footer p {
   padding-bottom: 20px;
 }
 .container.team article section .social-links {
-  display: flex;
   width: 100%;
+  display: flex;
   justify-content: center;
 }
 .container.team article section .social-links img.github-icon {
