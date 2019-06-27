@@ -23,7 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -85,7 +87,6 @@ header {
             @media @mobile {
                 display:none;
             }
-        
         }
 
         p {
@@ -129,7 +130,6 @@ header {
         }
     }
 }
-
 
 .main-hero-text {
     height: 700px;
@@ -229,7 +229,7 @@ header {
         }
 
         p {
-            color: gray;
+            color: @expat-journal-secondary;
             font-size: 2rem;
             
             @media @mobile {
@@ -240,7 +240,6 @@ header {
     }
 
     .features-section {
-
         display: flex;
 
         @media @tablet {
@@ -307,9 +306,8 @@ header {
 
                     p {
                         font-size: 1.6rem;
-                        color: grey;
+                        color: @expat-journal-secondary;
                         line-height: 1.6;
-
 
                         @media @mobile {
                             text-align: center;
@@ -370,7 +368,7 @@ header {
                 }
                 
                 .slider-icon {
-                    color: lightgray;
+                    color: @expat-journal-seconday-lighter;
                 }
             }
         }
@@ -381,7 +379,7 @@ header {
     height: 300px;
     .flex-column;
     .flex-centered;
-    background-color: lightgray;
+    background-color: @expat-journal-seconday-lighter;
     text-align: center;
 
     h2 {
@@ -396,7 +394,7 @@ header {
     }
 
     p {
-        color: gray;
+        color: @expat-journal-secondary;
         font-size: 2rem;
 
         @media @mobile {

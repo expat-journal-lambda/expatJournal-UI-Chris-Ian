@@ -333,7 +333,7 @@ header .login-links a:hover {
   padding-bottom: 20px;
 }
 .container .features-title p {
-  color: gray;
+  color: grey;
   font-size: 2rem;
 }
 @media (max-width: 500px) {
@@ -511,7 +511,7 @@ header .login-links a:hover {
   }
 }
 .call-to-action p {
-  color: gray;
+  color: grey;
   font-size: 2rem;
 }
 @media (max-width: 500px) {
@@ -589,7 +589,7 @@ footer p {
   width: 90%;
   padding-left: 5%;
   padding-right: 5%;
-  color: gray;
+  color: grey;
   font-size: 2rem;
   padding-bottom: 20px;
   text-align: center;
@@ -632,7 +632,7 @@ footer p {
   }
 }
 .container.team .roles .tab {
-  border: 1px #062135 solid;
+  border: 1px solid #062135;
   margin: 5px;
   height: 40px;
   align-items: center;
@@ -648,7 +648,7 @@ footer p {
 .container.team .roles .active-tab {
   background-color: #062135;
   color: white;
-  border: 2px #062135 solid;
+  border: 2px solid #062135;
 }
 .container.team article {
   display: flex;
