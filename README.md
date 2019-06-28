@@ -34,25 +34,17 @@ __Stretch Goal:__ Build an image uploader into the site to allow users the abili
 
 ### Installation ###
 
-/play whoomp
-
 Fork, Clone, or Download on GitHub
 
 ### Usage ###
-
-/play danielsan 
 
 After downloading, simply edit the HTML and CSS files included in your favorite text editor to make changes. These are the only files you need to focus on to create your own marketing/landing & team pages. To preview the changes you make to the code, you can open the index.html file in your web browser.
 
 ### Bugs or Issues ###
 
-/play noooo
-
 Find a bug or have an issue with this project? [Open a new issue here on GitHub.](https://github.com/expat-journal-lambda/expatJournal-UI-Chris-Ian/issues/new)
 
 ### Preview ###
-
-/play trololo
 
 ![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/index-page.png "Landing Page")
 
