@@ -46,6 +46,20 @@ Find a bug or have an issue with this project? [Open a new issue here on GitHub.
 
 ### Preview ###
 
+#### Desktop ####
+
 ![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/index-page.png "Landing Page")
 
 ![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/team-page.png "Team Page")
+
+#### Tablet ####
+
+![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/home-tablet.png "Landing Page (Tablet)")
+
+![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/team-tablet.png "Team Page (Tablet)")
+
+#### Mobile ####
+
+![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/home-mobile.png "Landing Page (Mobile)")
+
+![picture alt](https://epic-heisenberg-a4d2e2.netlify.com/img/team-mobile.png "Team Page (Mobile)")
